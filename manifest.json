@@ -1,0 +1,22 @@
+{
+  "name": "Guess The Number",
+  "description": "Having a break from work and want to refresh your brain? Try playing a game of Guess The Number!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+      "16": "gtn.png",
+      "32": "gtn.png",
+      "48": "gtn.png",
+      "128": "gtn.png"
+    }
+  },
+  "icons": {
+    "16": "gtn.png",
+    "32": "gtn.png",
+    "48": "gtn.png",
+    "128": "gtn.png"
+  }
+}
